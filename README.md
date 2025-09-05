@@ -1,2 +1,2 @@
-# Der_Club_T-rsteher
+# Der_Club_Tuersteher
 Eine Übungsaufgabe zum erlernen der Grundlagen in Python.
