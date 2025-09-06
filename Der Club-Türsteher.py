@@ -22,7 +22,7 @@ def pruefe_gaeste_alter(gaeste_liste):
     """
     # Eine for-Schleife, die jeden Eintrag in der 'gaeste_liste' einzeln durchgeht.
     # In jedem Durchlauf wird der aktuelle Wert der Variable 'alter' zugewiesen.
-    for alter in gaeste_alter:
+    for alter in gaeste_liste:
         # Eine if-else-Bedingung prüft, ob das aktuelle 'alter' größer oder gleich 18 ist.
         if alter >= 18:
             # Wenn die Bedingung wahr ist (Alter ist 18+), wird diese Nachricht ausgegeben.
@@ -37,4 +37,5 @@ gaeste_alter = [25, 17, 30, 16, 21, 18]
 
 # Aufruf der zuvor definierten Funktion 'pruefe_gaeste_alter'.
 # Wir übergeben die Liste 'gaeste_alter' als Argument, damit die Funktion sie verarbeiten kann.
+
 pruefe_gaeste_alter(gaeste_alter)
